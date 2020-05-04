@@ -5,7 +5,7 @@ const server = express();
 // tratar as requisições HTTP (GET, POST, PUT, DELETE)
 
 server.get('/', function(request, response) {
-    response.send('Hello World, Fatec!');
+    response.send('Hello World, Fatec!, editado no próprio GitHub.');
 })
 
 server.get('/lista', function(request, response) {
